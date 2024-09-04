@@ -89,6 +89,11 @@ section{
     font-weight: 700;
     line-height: 1.3;
 }
+.home h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
 .home p{
     font-size: 1.5rem;
 }
@@ -100,7 +105,15 @@ span{
     font-weight: 700;
     line-height: 1.3;
 }
-
+.home .js span{
+    color: yellow;
+}
+.home .htmlcss h1 span{
+    color: rgb(227,78,38);
+}
+.home .htmlcss h3 span{
+    color: rgb(0,112,186);
+}
 #image{
     border-radius: 50%;
 }
