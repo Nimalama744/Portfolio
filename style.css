@@ -114,6 +114,39 @@ span{
 .home .htmlcss h3 span{
     color: rgb(0,112,186);
 }
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.skills h1{
+    font-size: 5rem;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#p1{
+    margin-right: 50px;
+}
+#p1 span{
+    color: rgb(93,85,216);
+}
+#p2{
+    margin-left: 50px;
+}
+#p2 span{
+    color: rgb(47,234,193);
+}
+#p3 span{
+    color: rgb(255,223,95);
+}
+#p4 span{
+    color: rgb(200,102,234);
+}
 #image{
     border-radius: 50%;
 }
