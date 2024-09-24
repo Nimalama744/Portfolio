@@ -1,0 +1,64 @@
+body{
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+h1{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.mybuttons{
+    border-radius: 50px;
+    padding: 0 0 0 0;
+    border: none;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    transition: border 0.1s ease;
+}
+
+.mybuttons:hover{
+    border:  5px solid rgb(40, 38, 37);
+}
+#rockbtn{
+    background-image: url(logos/rock.jpeg);
+    background-size: cover;
+    background-position: -20px 0px;
+    
+}
+#paperbtn{
+    background-image: url(logos/paper.png);
+    background-size: cover;
+    background-position: -25px;
+    
+}
+#scissorsbtn{
+    background-image: url(logos/scissors.jpg);
+    background-size: contain;
+    background-position: 5px;
+}
+
+#p1, #pc{
+    font-size: 2.5rem;
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 30px 0;
+}
+
+.scoreDisplay{
+    font-size: 2rem;
+}
+.greentext, #pScoreDisplay{
+    color: rgb(24, 140, 24);
+}
+.redtext,  #pcScoreDisplay{
+    color: rgb(156, 30, 30);
+}
+

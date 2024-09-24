@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/020/735/968/original/seamless-sky-with-clouds-cute-cloudy-blue-sky-2d-game-pattern-heaven-summer-weather-background-texture-vector.jpg);
+    background-repeat: repeat;
+}
+#content{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+#myBtn1{
+    align-items: center;
+    border-radius: 35px;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(17, 17, 17);
+    color: aliceblue;
+    border: 0.5px solid white;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 0px;
+    
+}
+
+#myBtn2{
+    align-items: center;
+    border-radius: 35px;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 21, 21);
+    border: 1px solid black;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: none;
+   
+}
