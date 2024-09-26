@@ -65,11 +65,11 @@
 
     const WeatherEmoji = document.createElement("p");
     WeatherEmoji.classList.add("weatherEmoji");
-    WeatherEmoji.textContent = getWeatherEmoji(id);
+    WeatherEmoji.textContent = getWeatherEmoji(id );
 
     card.textContent = "";
     card.style.display = "flex";
-    card.appendChild(cityName);
+    card.appendChild(cityName); 
     card.appendChild(Temp);
     card.appendChild(Humidity);
     card.appendChild(Description);
