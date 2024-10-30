@@ -7,19 +7,54 @@
     <link rel="stylesheet" href="drumkit.css">
 </head>
 <body>
-    <img src="logos/drumsett.jpg" alt="" usemap="#drums">
+    
+    <div class="drumcontainer">
 
-    <map name="drums">
-        <area shape="poly" coords="26,174,8,135,50,110,113,110,144,134,107,169" title="highhat"  onclick="play()">
-        <area shape="poly" coords="140,308,141,206,204,168,319,206,287,299,228,321" title="snare" onclick="">
-        <area shape="poly" coords="218,161,218,106,258,82,322,95,318,174" title="hightom" onclick="">
-        <area shape="poly" coords="341,159,340,66,432,62,475,138,430,208" title="midtom" onclick="">
-        <area shape="poly" coords="457,100,469,62,618,61,596,144,481,134" title="crash" onclick="">
-        <area shape="poly" coords="316,232,412,254,417,367,334,481,295,398,236,331,296,296" title="bass" onclick="">
-        <area shape="poly" coords="428,354,424,277,462,235,578,242,615,288,580,349" title="floortom" onclick="">
-        
-    </map>
+        <div data-key="65" class="drum">
+            <kbd>A</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+
+        <div data-key="83" class="drum">
+            <kbd>S</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+
+        <div data-key="68" class="drum">
+            <kbd>D</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+
+        <div data-key="70" class="drum">
+            <kbd>F</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+
+        <div data-key="71" class="drum">
+            <kbd>G</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+
+        <div data-key="72" class="drum">
+            <kbd>H</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+
+        <div data-key="74" class="drum">
+            <kbd>J</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+
+
+    </div>
           
+    <audio data-key="65" src="audios/01 - JavaScript Drum Kit_sounds_hihat.wav"></audio>
+    <audio data-key="83" src="audios/01 - JavaScript Drum Kit_sounds_snare.wav"></audio>
+    <audio data-key="68" src="audios/01 - JavaScript Drum Kit_sounds_tom.wav"></audio>
+    <audio data-key="70" src="audios/01 - JavaScript Drum Kit_sounds_ride.wav"></audio>
+    <audio data-key="71" src="audios/01 - JavaScript Drum Kit_sounds_kick.wav"></audio>
+    <audio data-key="72" src="audios/01 - JavaScript Drum Kit_sounds_boom.wav"></audio>
+    <audio data-key="74" src="audios/crash.mp3"></audio>
 
     
 
